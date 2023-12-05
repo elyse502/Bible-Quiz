@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bible Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--Iconscout link for icons-->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+	<!--Fontawesome CDN link for icons
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+</head>
+<body>
+
+	<!--Welcome box-->
+	<div class="welcome-box">
+		<div class="welcome-image">
+			<img src="image/welcome.png">
+		</div>
+		<div class="welcome-content">
+			<h1>Welcome to <span> BibQuiz!</span></h1>
+			<p>This is a simple Quiz App that contains a set of bible curated questions and its answers.</p>
+			<img class="line" src="image/line1.png">
+			<p class="second">Let's see how well you know your bible!</p>
+		</div>
+		<div class="start-btn"><button >Start Quiz</button></div>
+	</div>
+
+	<!--Start quiz button-->
+	
+
+	<!--Content box-->
+	<div class="content-box">
+		<div class="content-title">
+			<span>The Rules of this Quiz</span>
+		</div>
+		<div class="content-list">
+			<div class="content">1. You will have only <span>15 seconds</span> for each each.</div>
+			<div class="content">2. Once you choose your answer, you can't change it.</div>
+			<div class="content">3. You can't select any option once the time goes off.</div>
+			<div class="content">4. You can't exit from the Quiz while you're playing.</div>
+			<div class="content">5. You'll get points only for questions answered correctly.</div>
+		</div>
+		<div class="bottom-btn">
+			<button class="quit">Exit Quiz</button>
+			<button class="restart">Continue</button>
+		</div>
+	</div>
+
+	<!--Quiz box-->
+	<div class="quiz-box">
+		<header>
+			<div class="title">Bible Quiz Application</div>
+			<div class="timer">
+				<div class="time-text">Time Left:</div>
+				<div class="timer-sec">15</div>
+			</div>
+			<div class="time-line"></div>
+		</header>
+		<section>
+			<div class="que-text">
+				<span>The Gospel of Mark begins with:</span>
+			</div>
+			<div class="option-list">
+				<!--<div class="option">
+					<span>Jesus' baptism by John</span>
+					<div class="icon tick"><i class="uil uil-check"></i></div>
+				</div>
+				<div class="option">
+					<span>Jesus' birth</span>
+					<div class="icon cross"><i class="uil uil-times"></i></div>
+				</div>
+				<div class="option">
+					<span>John the Baptist's birth</span>
+				</div>
+				<div class="option">
+					<span>Joseph's dream</span>
+				</div>-->
+			</div>
+		</section>
+
+		<!--Quiz box footer-->
+		<footer>
+			<div class="total-que">
+				<!--<span><p>2</p>of<p>10</p>Questions</span>-->
+			</div>
+			<button class="next-btn">Next</button>
+		</footer>
+	</div>
+
+	<!-- Result box-->
+	<div class="result-box">
+		<div class="icon">
+			<i class="uil uil-award"></i>
+		</div>
+		<div class="complete-text">You have completed the Quiz!</div>
+		<div class="score-text">
+			<!--<span>sorry, You scored only<p>4</p>out of <p>10</p></span>-->
+		</div>
+		<div class="bottom-btn">
+			<button class="restart">Replay Quiz</button>
+			<button class="quit">Quit Quiz</button>
+		</div>
+	</div>
+
+    <script src="questions.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
+
+					
