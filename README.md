@@ -1,4 +1,4 @@
-# Bible Quiz Application (BibQuiz)
+# Bible Quiz Application (BibQuiz) 📖
 
 Welcome to **BibQuiz**, a simple Quiz App that tests your knowledge of the Bible with a set of curated questions and answers.
 
